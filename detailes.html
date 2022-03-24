@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/notes.png" type="image/x-icon">
+    <link rel="stylesheet" href="detailes.css">
+    <!-- <link rel="stylesheet" href="table.css"> -->
+    <title>السجلات</title>
+</head>
+
+<body>
+    <section class="detailes">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav_content">
+                    <ul>
+                        <li> <a id="btn_delete" href="#">مسح البيانات</a> </li>
+                        <li> <a id="btn_order" href="#">سجل التيك اوي</a> </li>
+                        <li> <a id="btn_station" href="#">سجل الاجهزة</a> </li>
+                    </ul>
+                    <div class="logo">
+                        <h2>Play Station</h2>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <section class="show_all_data">
+                <table class="show_play">
+                    <tr>
+                        <th>#</th>
+                        <th>الاسم</th>
+                        <th>السعر</th>
+                        <th>التاريخ</th>
+                        <th>البداية</th>
+                        <th>النهاية</th>
+                    </tr>
+                    <tbody class="bodyt_table2">
+                    </tbody>
+                </table>
+            </section>
+            <section class="show_Allorder">
+                <table id="show_product" class="show_order">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>الاسم</th>
+                            <th>السعر</th>
+                            <th>العدد</th>
+                            <th>الاجمالي</th>
+                            <th>رقم الجهاز</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bodyt_table">
+                    </tbody>
+                    </tbody>
+                </table>
+            </section>
+            <div class="Total_station">الاجمالي :<span class="sum_all_total">0</span> جنيها</div>
+            <div class="Total_station1">الاجمالي :<span class="sum_all_total2">0</span> جنيها</div>
+        </div>
+
+    </section>
+    <script src="./detail.js"></script>
+</body>
+
+</html>

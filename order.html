@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/icon_f2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./order.css">
+    <title>الطلبات</title>
+</head>
+
+<body>
+    <h1 class="header">جميع الطلبات</h1>
+    <section class="order">
+        <div class="container">
+            <div class="select_order">
+                <div class="box_order">
+                    <h4>المشروبات:</h4>
+                    <select name="one" id="select1">
+                        <option value="">مشروبات</option>
+                        <option value="hot_drink">مشروبات ساخنة</option>
+                        <option value="cool_drink">مشروبات باردة</option>
+                    </select>
+                </div>
+            </div>
+            <section class="show_Allorder">
+                <table id="show_product" class="show_order">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>الاسم</th>
+                            <th>السعر</th>
+                            <th>اضافة</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bodyt_table">
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </section>
+    <div class="form">
+        <form action="">
+            <div>
+                <label for="">الاسم</label>
+                <input type="text" placeholder="اسم المنتج" id="name">
+            </div>
+            <div>
+                <label for="">السعر</label>
+                <input type="text" placeholder="السعر" id="price">
+            </div>
+            <div>
+                <label for="">العدد</label>
+                <input type="number" placeholder="0" id="count">
+                <span class="wornning" style="font-weight: bold;display:none; margin-top: 0.5rem;">حدد الكمية !</span>
+            </div>
+            <div>
+                <label for="">رقم الجهاز</label>
+                <select id="sel_num">
+                    <option value="station1">رقم الجهاز</option>
+                    <option value="station1">الحهاز رقم 1</option>
+                    <option value="station2">الحهاز رقم 2</option>
+                    <option value="station3">الحهاز رقم 3</option>
+                    <option value="station4">الحهاز رقم 4</option>
+                </select>
+            </div>
+            <button id="btn_add">اضافة</button>
+        </form>
+    </div>
+    <script src="order.js"></script>
+</body>
+
+</html>

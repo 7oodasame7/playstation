@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    direction: rtl;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+
+/* start navBar */
+.nav {
+    padding: 0.6rem 0.1rem;
+ }
+  .nav .nav_content {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+  .nav .nav_content {
+     color: #333;
+     
+ }
+  .nav .nav_content ul li  {
+     display: inline-block;
+     margin-left: 30px;
+ }
+  .nav .nav_content ul li a {
+     font-size: 20px;
+     color:var(--main_color);
+     cursor: pointer;
+     font-weight: bold;
+ }
+ .nav .nav_content ul li:first-of-type {
+    background-color: #990a00;
+    color: #fff;
+    width: 110px;
+    text-align: center;
+    padding: 0.4rem;
+    border-radius: 10px;
+}
+ .nav .nav_content ul li a:hover {
+    color: #990a00;
+ }
+ .nav .nav_content ul li:first-of-type:hover {
+    background-color: transparent;
+    color: #990a00;
+    border:1px solid #990a00;
+    cursor: pointer;
+    box-shadow: 2px 4px 6px #990a00;
+}
+ /* start table */
+ .show_Allorder,.show_all_data  {
+     display: none;
+     margin-top: 5rem;
+ }
+ .show_Allorder .show_order ,.show_all_data .show_play {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 2px 4px 6px rgba(0,0,0,0.5);
+    border-spacing: 0;
+}
+.show_Allorder .show_order tr th ,.show_all_data .show_play tr th  {
+    background-color: #990a00;
+    padding: 1rem 0.2rem;
+    color: #eee;
+}
+.show_all_data .show_play tr td ,.show_order tr td {
+    background-color: #fff;
+    padding: 1rem 0.2rem;
+    color: #000;
+    font-weight: bold;
+}
+
+
+.show_Allorder table td ,.show_all_data .show_play tr td  {
+    background-color: #fff;
+    padding: 1rem 0.2rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.Total_station ,.Total_station1 {
+    background-color: #990a00;
+    margin: 1rem auto;
+    padding: 1rem 3rem;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    display: none;
+}
+.Total_station >span,.Total_station1 >span {
+    display: inline-block;
+    margin: 0 0.6rem;
+    font-size: 30px;
+    color: #fff;
+    padding: 0.6rem;
+    border-radius: 1rem;
+}

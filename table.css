@@ -1,0 +1,43 @@
+.show_Allorder table,.show_all_data .show_play {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 2px 4px 6px rgba(0,0,0,0.5);
+    border-spacing: 0;
+    opacity: 0;
+}
+.show_Allorder table th,.show_all_data .show_play th  {
+    background-color: #990a00;
+    padding: 1rem 0.2rem;
+    color: #eee;
+}
+
+.show_Allorder table td ,.show_all_data .show_play tr td  {
+    background-color: #fff;
+    padding: 1rem 0.2rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.Total_station ,.Total_station1 {
+    background-color: #990a00;
+    margin: 1rem auto;
+    padding: 1rem 3rem;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    display: none;
+}
+.Total_station >span,.Total_station1 >span {
+    display: inline-block;
+    margin: 0 0.6rem;
+    font-size: 30px;
+    color: #fff;
+    padding: 0.6rem;
+    border-radius: 1rem;
+}
